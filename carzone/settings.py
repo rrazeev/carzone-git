@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'cars.apps.CarsConfig',
     'pages.apps.PagesConfig',
     'accounts.apps.AccountsConfig',
+    'contacts.apps.ContactsConfig',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -150,3 +151,9 @@ MESSAGE_TAGS = {
 }
 
 SITE_ID = 1
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'lochanrajeev076@gmail.com'
+EMAIL_HOST_PASSWORD = 'lochan50#123'
+EMAIL_USE_TLS = True
