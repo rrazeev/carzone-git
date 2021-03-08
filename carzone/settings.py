@@ -26,7 +26,7 @@ SECRET_KEY = '*ptbce+xh_ivp=gq!8*((b_rb$v(ogh1%odod3sgvq*0(r)l@f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['carzone-car.herokuapp.com']
+ALLOWED_HOSTS = ['carzone-car.herokuapp.com','carzoneapp.co', 'www.carzoneapp.co']
 LOGIN_REDIRECT_URL = 'dashboard'
 
 # Application definition
